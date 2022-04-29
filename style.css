@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+}
+.img{
+    max-width: 10%;
+    margin: 10px;
+    min-width: 50%;
+    object-fit: cover;
+
+}
+.hero , .footer ,.header{
+    background-color: #1F2937;
+    color: #E5e7eb;
+    display: flex;
+    padding: 10px 50px;
+}
+.container{
+    padding: 50px 0px;
+    display:flex;
+}
+.container-left {
+    display:flex;
+    flex-direction:column;
+    padding-right:10px;
+}
+a {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+.header-logo {
+    font-weight:bold;
+    flex-grow: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-right {
+    flex-grow: 0;
+}
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+    color: #F9FAF8;
+}
+.button {
+  background: #3882f6;
+  border: 4px solid #3882f6;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bolder;
+  align-self: flex-start;
+}
+.title{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+}
+.information {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.all-pics {
+    display:flex;
+    flex-direction: row;
+    padding: 0 50px;
+}
+.pics {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.img-bordered  {
+    max-width: 150px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+    height: auto;
+    flex: 1 1 auto;
+}
+.quote {
+    background-color: #e5e7eb;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 20px 80px;
+    
+}
+.person{
+    font-weight: bold;
+    font-size: 18px;
+    text-align:end ;
+}
+.button.big {
+    display: flex;
+    margin: 50px 50px;
+    flex-direction:row ;
+}
+.button-signup {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    align-self:flex-end;
+    padding: 4px 16px;
+    flex-shrink:0;
+    font-size: 15px;
+
+}
+.container2 {
+    display:flex;
+    flex-direction:column;
+    font-weight: 100;
+}
+h4 {
+    margin-bottom: 2px;
+}
+.button.big p{
+    margin-top: 0px;
+    font-size: 15px;
+}
+.footer {
+    justify-content: center;
+    font-size: 15px;
+  }

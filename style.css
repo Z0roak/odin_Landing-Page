@@ -4,11 +4,10 @@ body{
     font-size: 18px;
 }
 .img{
-    max-width: 10%;
+    max-height: 50%;
+    max-width: 50%;
     margin: 10px;
-    min-width: 50%;
-    object-fit: cover;
-
+    object-fit:contain;
 }
 .hero , .footer ,.header{
     background-color: #1F2937;
@@ -24,6 +23,7 @@ body{
     display:flex;
     flex-direction:column;
     padding-right:10px;
+    min-width: 400px;
 }
 a {
     padding: 8px;
@@ -55,7 +55,7 @@ a {
   align-self: flex-start;
 }
 .title{
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bolder;
     color:#1F2937;
     text-align: center;
@@ -75,6 +75,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    text-align: center;
 }
 .img-bordered  {
     max-width: 150px;
@@ -100,6 +101,7 @@ a {
     display: flex;
     margin: 50px 50px;
     flex-direction:row ;
+    justify-content: space-between;
 }
 .button-signup {
     border: 1px solid #ffffff;
@@ -114,15 +116,17 @@ a {
     display:flex;
     flex-direction:column;
     font-weight: 100;
+
 }
 h4 {
     margin-bottom: 2px;
 }
 .button.big p{
     margin-top: 0px;
+    margin-bottom: 2px;
     font-size: 15px;
 }
 .footer {
     justify-content: center;
     font-size: 15px;
-  }
+}
